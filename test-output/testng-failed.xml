@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Sauce Labs Tests]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="3" parallel="tests" name="Sauce Test-Chrome(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="macOS 10.15"/>
+    <classes>
+      <class name="seleniumsaucelabs.testcases.SauceTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="checkAddToCartButtonTest"/>
+        </methods>
+      </class> <!-- seleniumsaucelabs.testcases.SauceTest -->
+    </classes>
+  </test> <!-- Sauce Test-Chrome(failed) -->
+  <test thread-count="3" parallel="tests" name="Sauce Test-FF(failed)" verbose="3">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="windows 10"/>
+    <classes>
+      <class name="seleniumsaucelabs.testcases.SauceTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="checkAddToCartButtonTest"/>
+        </methods>
+      </class> <!-- seleniumsaucelabs.testcases.SauceTest -->
+    </classes>
+  </test> <!-- Sauce Test-FF(failed) -->
+</suite> <!-- Failed suite [Sauce Labs Tests] -->

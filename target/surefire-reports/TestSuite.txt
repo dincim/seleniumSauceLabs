@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 0.629 s <<< FAILURE! - in TestSuite
+setUp(seleniumsaucelabs.testcases.SauceTest)  Time elapsed: 0.438 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+tearDown(seleniumsaucelabs.testcases.SauceTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setUp(seleniumsaucelabs.testcases.SauceTest)  Time elapsed: 0.005 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+tearDown(seleniumsaucelabs.testcases.SauceTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
