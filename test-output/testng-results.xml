@@ -2,21 +2,21 @@
 <testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-21T16:22:50 CDT" name="Sauce Labs Tests" finished-at="2021-07-21T16:23:48 CDT" duration-ms="58721">
+  <suite started-at="2021-07-23T10:35:26 CDT" name="Sauce Labs Tests" finished-at="2021-07-23T10:36:47 CDT" duration-ms="81370">
     <groups>
     </groups>
-    <test started-at="2021-07-21T16:22:50 CDT" name="Sauce Test-Chrome" finished-at="2021-07-21T16:23:37 CDT" duration-ms="47762">
+    <test started-at="2021-07-23T10:35:26 CDT" name="Sauce Test-FF" finished-at="2021-07-23T10:36:26 CDT" duration-ms="60503">
       <class name="seleniumsaucelabs.testcases.SauceTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@5562c41e]" started-at="2021-07-21T16:22:50 CDT" name="setUp" finished-at="2021-07-21T16:22:58 CDT" duration-ms="8260" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@506ae4d4]" started-at="2021-07-23T10:35:26 CDT" name="setUp" finished-at="2021-07-23T10:35:42 CDT" duration-ms="16390" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[macOS 10.15]]>
+                <![CDATA[windows 10]]>
               </value>
             </param>
             <param index="2">
@@ -28,24 +28,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkInventoryItemTest()[pri:1, instance:seleniumsaucelabs.testcases.SauceTest@5562c41e]" started-at="2021-07-21T16:22:58 CDT" name="checkInventoryItemTest" finished-at="2021-07-21T16:23:04 CDT" duration-ms="5488" status="PASS">
+        <test-method signature="checkInventoryItemTest()[pri:1, instance:seleniumsaucelabs.testcases.SauceTest@506ae4d4]" started-at="2021-07-23T10:35:42 CDT" name="checkInventoryItemTest" finished-at="2021-07-23T10:35:46 CDT" duration-ms="3563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkInventoryItemTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@5562c41e]" started-at="2021-07-21T16:23:04 CDT" name="tearDown" finished-at="2021-07-21T16:23:04 CDT" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@506ae4d4]" started-at="2021-07-23T10:35:46 CDT" name="tearDown" finished-at="2021-07-23T10:35:46 CDT" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@5562c41e]" started-at="2021-07-21T16:23:04 CDT" name="setUp" finished-at="2021-07-21T16:23:15 CDT" duration-ms="10887" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@506ae4d4]" started-at="2021-07-23T10:35:46 CDT" name="setUp" finished-at="2021-07-23T10:36:02 CDT" duration-ms="15579" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[macOS 10.15]]>
+                <![CDATA[windows 10]]>
               </value>
             </param>
             <param index="2">
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkAddToCartButtonTest()[pri:2, instance:seleniumsaucelabs.testcases.SauceTest@5562c41e]" started-at="2021-07-21T16:23:15 CDT" name="checkAddToCartButtonTest" finished-at="2021-07-21T16:23:37 CDT" duration-ms="22492" status="FAIL">
+        <test-method signature="checkAddToCartButtonTest()[pri:2, instance:seleniumsaucelabs.testcases.SauceTest@506ae4d4]" started-at="2021-07-23T10:36:02 CDT" name="checkAddToCartButtonTest" finished-at="2021-07-23T10:36:26 CDT" duration-ms="24490" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -98,110 +98,110 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAddToCartButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@5562c41e]" started-at="2021-07-21T16:23:37 CDT" name="tearDown" finished-at="2021-07-21T16:23:37 CDT" duration-ms="271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- seleniumsaucelabs.testcases.SauceTest -->
-    </test> <!-- Sauce Test-Chrome -->
-    <test started-at="2021-07-21T16:22:50 CDT" name="Sauce Test-FF" finished-at="2021-07-21T16:23:48 CDT" duration-ms="58721">
-      <class name="seleniumsaucelabs.testcases.SauceTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@65f095f8]" started-at="2021-07-21T16:22:50 CDT" name="setUp" finished-at="2021-07-21T16:23:05 CDT" duration-ms="14811" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[windows 10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[public void seleniumsaucelabs.testcases.SauceTest.checkInventoryItemTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="checkInventoryItemTest()[pri:1, instance:seleniumsaucelabs.testcases.SauceTest@65f095f8]" started-at="2021-07-21T16:23:05 CDT" name="checkInventoryItemTest" finished-at="2021-07-21T16:23:08 CDT" duration-ms="3417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkInventoryItemTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@65f095f8]" started-at="2021-07-21T16:23:08 CDT" name="tearDown" finished-at="2021-07-21T16:23:08 CDT" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@65f095f8]" started-at="2021-07-21T16:23:08 CDT" name="setUp" finished-at="2021-07-21T16:23:24 CDT" duration-ms="15805" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[windows 10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[public void seleniumsaucelabs.testcases.SauceTest.checkAddToCartButtonTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="checkAddToCartButtonTest()[pri:2, instance:seleniumsaucelabs.testcases.SauceTest@65f095f8]" started-at="2021-07-21T16:23:24 CDT" name="checkAddToCartButtonTest" finished-at="2021-07-21T16:23:48 CDT" duration-ms="24237" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at seleniumsaucelabs.testcases.SauceTest.checkAddToCartButtonTest(SauceTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkAddToCartButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@65f095f8]" started-at="2021-07-21T16:23:48 CDT" name="tearDown" finished-at="2021-07-21T16:23:48 CDT" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@506ae4d4]" started-at="2021-07-23T10:36:26 CDT" name="tearDown" finished-at="2021-07-23T10:36:26 CDT" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- seleniumsaucelabs.testcases.SauceTest -->
     </test> <!-- Sauce Test-FF -->
+    <test started-at="2021-07-23T10:35:26 CDT" name="Sauce Test-Chrome" finished-at="2021-07-23T10:36:47 CDT" duration-ms="81370">
+      <class name="seleniumsaucelabs.testcases.SauceTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@663c9e7a]" started-at="2021-07-23T10:35:26 CDT" name="setUp" finished-at="2021-07-23T10:35:47 CDT" duration-ms="21305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void seleniumsaucelabs.testcases.SauceTest.checkInventoryItemTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkInventoryItemTest()[pri:1, instance:seleniumsaucelabs.testcases.SauceTest@663c9e7a]" started-at="2021-07-23T10:35:47 CDT" name="checkInventoryItemTest" finished-at="2021-07-23T10:35:59 CDT" duration-ms="11570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInventoryItemTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@663c9e7a]" started-at="2021-07-23T10:35:59 CDT" name="tearDown" finished-at="2021-07-23T10:35:59 CDT" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@663c9e7a]" started-at="2021-07-23T10:35:59 CDT" name="setUp" finished-at="2021-07-23T10:36:18 CDT" duration-ms="18980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void seleniumsaucelabs.testcases.SauceTest.checkAddToCartButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkAddToCartButtonTest()[pri:2, instance:seleniumsaucelabs.testcases.SauceTest@663c9e7a]" started-at="2021-07-23T10:36:18 CDT" name="checkAddToCartButtonTest" finished-at="2021-07-23T10:36:46 CDT" duration-ms="28092" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at seleniumsaucelabs.testcases.SauceTest.checkAddToCartButtonTest(SauceTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddToCartButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumsaucelabs.testcases.SauceTest@663c9e7a]" started-at="2021-07-23T10:36:46 CDT" name="tearDown" finished-at="2021-07-23T10:36:47 CDT" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumsaucelabs.testcases.SauceTest -->
+    </test> <!-- Sauce Test-Chrome -->
   </suite> <!-- Sauce Labs Tests -->
 </testng-results>
