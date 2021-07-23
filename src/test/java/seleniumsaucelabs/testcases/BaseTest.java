@@ -40,6 +40,7 @@ public class BaseTest {
 		cap.setCapability("sauce:options", sauceOpts);
 		cap.setCapability("browserVersion", "latest");
 		cap.setCapability("platformName", platformName);
+		cap.setCapability("TunnelIdentifier", "maxrespect_tunnel_id");
 
 		if (browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
